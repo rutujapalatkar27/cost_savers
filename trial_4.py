@@ -41,7 +41,7 @@ parser.add_argument('-assume', '--assume',
 args = parser.parse_args()
 
 if args.assume:
-    print("inside if")
+    #print("inside if")
     try:
         sts_client = boto3.client('sts')
         assumed_role = sts_client.assume_role(RoleArn =  "arn:aws:iam::729111267627:role/webfocus-eks",
@@ -61,7 +61,7 @@ if args.assume:
         else:
             print("Unexpected error: %s" % e)
 else:
-    print("inside else")
+    #print("inside else")
     try:
         ec2 = boto3.client("ec2", region_name = args.region)
     except ClientError as e:
