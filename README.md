@@ -39,7 +39,7 @@ $ python3 trial_4.py -r <region> -a <action>
 $ python3 trial_4.py -r <region> -a <action> -i <name_of_instances>
 
 5. Perform action on all instances excluding some of them by -e, --exclude flag 
-$ python3 trial_4.py -r <region-of-your-choice> -a <action> -e <instances_name_you_want_to_exclude>
+$ python3 trial_4.py -r <region_of_your_choice> -a <action> -e <instances_name_you_want_to_exclude>
 
 6. You can also filter instances depending upon their type by flag -t, --type
 $ python3 trial_4.py -r <region> -a <action> -t <type_of_instance>
