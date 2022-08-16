@@ -49,5 +49,9 @@ $ python3 trial_2.py -r <region> -a <action> -id <instance-id>
 
 8. You can also perform all the above actions by giving -f, --force option wherein it will not ask for confirmation
 $ python3 trial_2.py -r <region> -a <action> -f 
+  
+9. Choose whether to assume role or not depending upon your access permission by the flag -assume
+  $ python3 trial_2.py -assume -a list
+  
 
 
